@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Molecular Jarvis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Animated particles background -->
+  <div id="particles-container"></div>
+  
+  <!-- Confetti container -->
+  <div id="confetti-container"></div>
+
+  <div id="app">
+    <header id="header">
+      <div class="header-top">
+        <div class="logo-section">
+          <h1>
+            <span class="logo-icon">🧬</span>
+            Molecular Jarvis
+          </h1>
+          <p class="tagline" data-i18n="tagline">Interaktywna wizualizacja struktur molekularnych</p>
+        </div>
+        <div class="lang-selector">
+          <button id="lang-pl" class="lang-btn active" title="Polski">PL</button>
+          <button id="lang-en" class="lang-btn" title="English">EN</button>
+        </div>
+      </div>
+      <div class="instructions">
+        <div class="instruction-item">
+          <span class="icon">✋</span>
+          <span data-i18n="instr1">Jedna ręka = obracanie</span>
+        </div>
+        <div class="instruction-item">
+          <span class="icon">🤲</span>
+          <span data-i18n="instr2">Dwie ręce = zoom</span>
+        </div>
+        <div class="instruction-item">
+          <span class="icon">⬅️➡️</span>
+          <span data-i18n="instr3">Strzałki = zmiana struktury</span>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <div id="viewer-container">
+        <div id="viewer"></div>
+        
+        <!-- Panel informacyjny o strukturze -->
+        <div id="protein-info">
+          <div class="protein-emoji" id="protein-emoji">🔴</div>
+          <h2 id="protein-name">Hemoglobina</h2>
+          <p id="protein-pdb" class="pdb-code">PDB: 1HHO</p>
+          <p id="protein-desc" class="protein-description"></p>
+          <div id="fun-fact" class="fun-fact">
+            <span class="fun-fact-icon">💡</span>
+            <span id="fun-fact-text"></span>
+          </div>
+        </div>
+
+        <!-- Kontrolki -->
+        <div id="controls">
+          <div class="control-group">
+            <label data-i18n="style">Styl:</label>
+            <div class="style-buttons">
+              <button class="style-btn active" data-style="cartoon" title="Cartoon">
+                <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                <span>Cartoon</span>
+              </button>
+              <button class="style-btn" data-style="stick" title="Stick">
+                <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M7 2v11h3v9l7-12h-4l4-8z"/></svg>
+                <span>Stick</span>
+              </button>
+              <button class="style-btn" data-style="sphere" title="Sphere">
+                <svg viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="12" r="10" fill="currentColor"/></svg>
+                <span>Sphere</span>
+              </button>
+              <button class="style-btn" data-style="surface" title="Surface">
+                <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/></svg>
+                <span>Surface</span>
+              </button>
+              <button class="style-btn" data-style="line" title="Line">
+                <svg viewBox="0 0 24 24" width="20" height="20"><path stroke="currentColor" stroke-width="2" fill="none" d="M3 17l6-6 4 4 8-8"/></svg>
+                <span>Line</span>
+              </button>
+            </div>
+          </div>
+          
+          <button id="reset-btn" class="reset-button">
+            <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M17.65 6.35A7.958 7.958 0 0012 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08A5.99 5.99 0 0112 18c-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/></svg>
+            <span data-i18n="reset">Reset widoku</span>
+          </button>
+        </div>
+
+        <!-- Nawigacja struktur -->
+        <div id="protein-nav">
+          <button id="prev-protein" class="nav-btn" title="Poprzednia struktura">
+            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+          </button>
+          <div id="protein-counter">1 / 20</div>
+          <button id="next-protein" class="nav-btn" title="Następna struktura">
+            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Podgląd kamery z wizualizacją gestów -->
+      <div id="camera-preview">
+        <video id="input_video" autoplay playsinline></video>
+        <canvas id="hand_canvas"></canvas>
+        <div id="gesture-indicator">
+          <span id="gesture-icon">👋</span>
+          <span id="gesture-text" data-i18n="noHand">Szukam dłoni...</span>
+        </div>
+      </div>
+    </main>
+
+    <!-- Loader -->
+    <div id="loader">
+      <div class="loader-content">
+        <div class="spinner"></div>
+        <p data-i18n="loading">Ładowanie struktury...</p>
+      </div>
+    </div>
+    
+    <!-- Navigation feedback -->
+    <div id="thumb-feedback">
+      <span id="thumb-feedback-icon">🧬</span>
+    </div>
+  </div>
+
+  <!-- 3Dmol.js -->
+  <script src="https://3Dmol.org/build/3Dmol-min.js"></script>
+
+  <!-- MediaPipe Hands + kamera -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+
+  <!-- Main script -->
+  <script src="main.js"></script>
+</body>
+</html>

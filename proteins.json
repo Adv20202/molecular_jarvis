@@ -1,0 +1,285 @@
+[
+  {
+    "pdb": "1HHO",
+    "name": { "pl": "Hemoglobina", "en": "Hemoglobin" },
+    "emoji": "🔴",
+    "category": { "pl": "Białko", "en": "Protein" },
+    "desc": {
+      "pl": "Wyobraź sobie małego kuriera, który podróżuje przez całe twoje ciało! Hemoglobina to właśnie taki kurier - mieszka w czerwonych krwinkach i dostarcza tlen do wszystkich części ciała. Dzięki niej możesz biegać, skakać i się bawić!",
+      "en": "Imagine a tiny courier traveling through your entire body! Hemoglobin is exactly that - it lives in red blood cells and delivers oxygen to every part of your body. Thanks to it, you can run, jump and play!"
+    },
+    "funFact": {
+      "pl": "Jedna kropla krwi zawiera około 250 milionów czerwonych krwinek, z których każda zawiera aż 260 milionów cząsteczek hemoglobiny. To ogromna liczba!",
+      "en": "A single drop of blood contains about 250 million red blood cells, each of which contains as many as 260 million hemoglobin molecules. That’s an enormous number!"
+    }
+  },
+  {
+    "pdb": "1BNA",
+    "name": { "pl": "DNA - Podwójna Helisa", "en": "DNA - Double Helix" },
+    "emoji": "🧬",
+    "category": { "pl": "Kwas nukleinowy", "en": "Nucleic acid" },
+    "desc": {
+      "pl": "DNA to kręcone schody, które przechowują instrukcję jak zbudować CIEBIE! Każda komórka twojego ciała ma taką samą księgę z przepisami. W środku są wszystkie informacje - kolor twoich oczu, włosów i miliony innych rzeczy!",
+      "en": "DNA is a twisted staircase that stores instructions for how to build YOU! Every cell in your body has the same recipe book inside. It contains all the information - your eye color, hair color, and millions of other things!"
+    },
+    "funFact": {
+      "pl": "Gdybyś rozwinął całe DNA z jednej komórki, miałoby około 2 metry! A w całym ciele masz tyle DNA, że sięgnęłoby do Słońca i z powrotem!",
+      "en": "If you unwound all the DNA from one cell, it would be about 2 meters! And your whole body has so much DNA it would reach the Sun and back!"
+    }
+  },
+  {
+    "pdb": "1IGT",
+    "name": { "pl": "Przeciwciało", "en": "Antibody" },
+    "emoji": "🛡️",
+    "category": { "pl": "Białko", "en": "Protein" },
+    "desc": {
+      "pl": "To superbohater twojego ciała! Przeciwciała wyglądają jak litera Y i są wojownikami, którzy walczą z zarazkami. Kiedy wirus lub bakteria wchodzi do ciała, przeciwciała łapią je jak policjanci łapią złodziei!",
+      "en": "This is your body's superhero! Antibodies look like the letter Y and are warriors fighting germs. When a virus or bacteria enters your body, antibodies catch them like police officers catch thieves!"
+    },
+    "funFact": {
+      "pl": "Twoje ciało może stworzyć miliony różnych typów przeciwciał - każde pasuje do innego złoczyńcy jak klucz do zamka!",
+      "en": "Your body can create millions of different antibodies - each fits a different villain like a key to a lock!"
+    }
+  },
+  {
+    "pdb": "6VXX",
+    "name": { "pl": "Kolec Koronawirusa", "en": "Coronavirus Spike" },
+    "emoji": "👑",
+    "category": { "pl": "Białko wirusowe", "en": "Viral protein" },
+    "desc": {
+      "pl": "To słynny 'kolec' koronawirusa COVID-19! Te kolczaste wypustki na powierzchni wirusa wyglądają jak korona (stąd nazwa 'korona-wirus'). Wirus używa ich jak kluczy, żeby wejść do komórek. Szczepionki uczą twoje ciało rozpoznawać te kolce!",
+      "en": "This is the famous COVID-19 coronavirus 'spike'! These spiky bumps on the virus surface look like a crown (that's why it's called 'corona-virus'). The virus uses them like keys to enter cells. Vaccines teach your body to recognize these spikes!"
+    },
+    "funFact": {
+      "pl": "Naukowcy stworzyli szczepionki przeciw COVID-19 w rekordowym czasie - niecały rok! To było możliwe dzięki znajomości struktury tego kolca.",
+      "en": "Scientists created COVID-19 vaccines in record time - less than a year! This was possible thanks to knowing this spike's structure."
+    }
+  },
+  {
+    "pdb": "1GFL",
+    "name": { "pl": "Zielone Świecące Białko (GFP)", "en": "Green Fluorescent Protein" },
+    "emoji": "✨",
+    "category": { "pl": "Białko", "en": "Protein" },
+    "desc": {
+      "pl": "To białko pochodzi z meduzy i świeci na zielono jak lampka nocna! Naukowcy używają go jak magicznego markera - dodają go do innych białek, żeby zobaczyć gdzie się chowają w komórkach. Jak latarka w ciemnym pokoju!",
+      "en": "This protein comes from jellyfish and glows green like a night light! Scientists use it as a magic marker - they add it to other proteins to see where they hide in cells. Like a flashlight in a dark room!"
+    },
+    "funFact": {
+      "pl": "Za odkrycie tego białka naukowcy dostali Nagrodę Nobla! Teraz możemy robić świecące ryby, myszy, a nawet koty!",
+      "en": "Scientists got a Nobel Prize for discovering this protein! Now we can make glowing fish, mice, and even cats!"
+    }
+  },
+  {
+    "pdb": "1EHZ",
+    "name": { "pl": "tRNA - Listonosz Genetyczny", "en": "tRNA - Genetic Postman" },
+    "emoji": "📬",
+    "category": { "pl": "Kwas nukleinowy", "en": "Nucleic acid" },
+    "desc": {
+      "pl": "tRNA to mały listonosz w twoich komórkach! Ma kształt litery L i przenosi aminokwasy (cegiełki białek) do fabryki białek. Czyta instrukcje z DNA i dostarcza właściwe cegiełki we właściwe miejsce!",
+      "en": "tRNA is a tiny postman in your cells! It's shaped like the letter L and carries amino acids (protein building blocks) to the protein factory. It reads DNA instructions and delivers the right blocks to the right place!"
+    },
+    "funFact": {
+      "pl": "W większości komórek w Twoim ciele są miliony małych „pomocników” tRNA, które nieustannie pracują jak armia listonoszy!",
+      "en": "In most cells in your body, there are millions of tiny tRNA “helpers” constantly working like an army of postmen!"
+    }
+  },
+  {
+    "pdb": "1HLS",
+    "name": { "pl": "Insulina", "en": "Insulin" },
+    "emoji": "🔑",
+    "category": { "pl": "Hormon", "en": "Hormone" },
+    "desc": {
+      "pl": "Insulina to mały kluczyk, który otwiera drzwi do twoich komórek! Kiedy jesz cukierka lub kanapkę, insulina pomaga cukrowi z jedzenia wejść do komórek, żeby dać ci energię do zabawy. Bez niej komórki byłyby głodne!",
+      "en": "Insulin is a tiny key that opens doors to your cells! When you eat candy or a sandwich, insulin helps sugar from food enter cells to give you energy to play. Without it, cells would be hungry!"
+    },
+    "funFact": {
+      "pl": "Insulina została odkryta ponad 100 lat temu i uratowała życie milionom ludzi z cukrzycą!",
+      "en": "Insulin was discovered over 100 years ago and has saved the lives of millions of people with diabetes!"
+    }
+  },
+  {
+    "pdb": "5IRE",
+    "assembly": 1,
+    "name": { "pl": "Wirus Zika", "en": "Zika Virus" },
+    "emoji": "🦟",
+    "category": { "pl": "Wirus", "en": "Virus" },
+    "desc": {
+      "pl": "To cały wirus Zika — zbudowany z tysięcy malutkich białkowych „klocków”! Ta białkowa skorupka działa jak pancerz: chroni wirusa i pomaga mu dostać się do komórek. Komary mogą przenosić wirusa między ludźmi. Naukowcy badają tę skorupkę, żeby znaleźć jej słabe miejsca i opracować leki oraz szczepionki.",
+      "en": "This is the whole Zika virus—built from thousands of tiny protein “building blocks”! Its protein shell acts like armor: it protects the virus and helps it enter cells. Mosquitoes can carry the virus from one person to another. Scientists study this shell to spot weak points and develop medicines and vaccines."
+    },
+    "funFact": {
+      "pl": "Ta osłona wirusa jest prawie idealnie okrągła - jak piłka nożna zbudowana z białek zamiast ze skóry!",
+      "en": "This virus shell is almost perfectly round - like a soccer ball made of proteins instead of leather!"
+    }
+  },
+  {
+    "pdb": "1MBO",
+    "name": { "pl": "Mioglobina", "en": "Myoglobin" },
+    "emoji": "💪",
+    "category": { "pl": "Białko", "en": "Protein" },
+    "desc": {
+      "pl": "Mioglobina to magazyn tlenu w twoich mięśniach! Jak akumulator przechowuje prąd, tak mioglobina przechowuje tlen. Kiedy szybko biegniesz i mięśnie potrzebują dużo tlenu naraz, mioglobina im go daje!",
+      "en": "Myoglobin is like an oxygen storage in your muscles! Just like a battery stores power, myoglobin stores oxygen. When you run fast and muscles need lots of oxygen, myoglobin gives it to them!"
+    },
+    "funFact": {
+      "pl": "Wieloryby mają super dużo mioglobiny - dlatego mogą nurkować nawet 2 godziny bez oddychania!",
+      "en": "Whales have super lots of myoglobin - that's why they can dive for up to 2 hours without breathing!"
+    }
+  },
+  {
+    "pdb": "5F9R",
+    "name": { "pl": "CRISPR-Cas9 - Nożyczki DNA", "en": "CRISPR-Cas9 - DNA Scissors" },
+    "emoji": "✂️",
+    "category": { "pl": "Kompleks białko-DNA", "en": "Protein-DNA complex" },
+    "desc": {
+      "pl": "To rewolucyjne nożyczki genetyczne! CRISPR-Cas9 potrafi wycinać i wklejać fragmenty DNA jak w edytorze tekstu. Naukowcy używają go do naprawiania błędów w genach i leczenia chorób genetycznych!",
+      "en": "These are revolutionary genetic scissors! CRISPR-Cas9 can cut and paste DNA fragments like a text editor. Scientists use it to fix gene errors and treat genetic diseases!"
+    },
+    "funFact": {
+      "pl": "Za odkrycie CRISPR dwie kobiety-naukowczynie dostały Nagrodę Nobla w 2020 roku! To narzędzie może zmienić medycynę na zawsze.",
+      "en": "Two women scientists won the Nobel Prize in 2020 for discovering CRISPR! This tool may change medicine forever."
+    }
+  },
+  {
+    "pdb": "1AON",
+    "name": { "pl": "GroEL - Maszynka Naprawcza", "en": "GroEL - Repair Machine" },
+    "emoji": "🎪",
+    "category": { "pl": "Białko", "en": "Protein" },
+    "desc": {
+      "pl": "To gigantyczny namiot cyrkowy dla białek! Kiedy nowe białka rodzą się pokręcone i poplątane, wchodzą do tego namiotu i wychodzą pięknie poukładane. Jak magik, który zamienia bałagan w porządek!",
+      "en": "It's a giant circus tent for proteins! When new proteins are born all twisted and tangled, they enter this tent and come out beautifully arranged. Like a magician turning mess into order!"
+    },
+    "funFact": {
+      "pl": "GroEL to białkowa „przebieralnia”: chowa białko do środka, żeby spokojnie się „ułożyło” i wyszło gotowe!",
+      "en": "GroEL is a protein “changing room”: it hides a protein inside so it can calmly “get sorted” and come out ready!"
+    }
+  },
+  {
+    "pdb": "1DI3",
+    "name": { "pl": "Lizozym - Niszczyciel Bakterii", "en": "Lysozyme - Bacteria Destroyer" },
+    "emoji": "💧",
+    "category": { "pl": "Enzym", "en": "Enzyme" },
+    "desc": {
+      "pl": "Lizozym to mały wojownik, który mieszka w twoich łzach, ślinie i nosie! Jego praca to niszczenie bakterii - rozrywa ich ściany jak baloniki.",
+      "en": "Lysozyme is a tiny warrior living in your tears, saliva, and nose! Its job is destroying bacteria - it bursts their walls like balloons."
+    },
+    "funFact": {
+      "pl": "Lizozym był pierwszym enzymem, którego strukturę poznano w 3D! Stało się to w 1965 roku.",
+      "en": "Lysozyme was the first enzyme whose 3D structure was discovered! This happened in 1965."
+    }
+  },
+  {
+    "pdb": "1CGD",
+    "name": { "pl": "Kolagen - Rusztowanie Ciała", "en": "Collagen - Body Scaffold" },
+    "emoji": "🏗️",
+    "category": { "pl": "Białko strukturalne", "en": "Structural protein" },
+    "desc": {
+      "pl": "Kolagen to lina, z której zbudowane jest twoje ciało! Trzy sznurki owijają się wokół siebie jak warkocz, tworząc super mocne włókna. Dzięki niemu twoja skóra jest elastyczna, a kości mocne!",
+      "en": "Collagen is the rope your body is built from! Three strings wrap around each other like a braid, creating super strong fibers. Thanks to it, your skin is stretchy and your bones are strong!"
+    },
+    "funFact": {
+      "pl": "Kolagen to najczęściej występujące białko w twoim ciele - stanowi aż 30% wszystkich białek!",
+      "en": "Collagen is the most common protein in your body - it makes up 30% of all your proteins!"
+    }
+  },
+  {
+    "pdb": "2PLV",
+    "assembly": 1,
+    "name": { "pl": "Wirus Polio", "en": "Polio Virus" },
+    "emoji": "🔵",
+    "category": { "pl": "Wirus", "en": "Virus" },
+    "desc": {
+      "pl": "To wirus polio - kiedyś bardzo groźna choroba, która mogła paraliżować dzieci! Dzięki szczepionkom prawie go pokonaliśmy. Ta kuleczka jest zbudowana z 60 kopii tego samego zestawu białek, ułożonych jak puzzle!",
+      "en": "This is the polio virus - once a very dangerous disease that could paralyze children! Thanks to vaccines, we've almost defeated it. This ball is built from 60 copies of the same set of protein, arranged like a puzzle!"
+    },
+    "funFact": {
+      "pl": "Szczepionka przeciw polio prawie całkowicie zlikwidowała tę chorobę - z milionów przypadków rocznie do zaledwie kilkudziesięciu!",
+      "en": "The polio vaccine has almost completely eliminated this disease - from millions of cases per year to just dozens!"
+    }
+  },
+  {
+    "pdb": "1J4N",
+    "assembly": 1,
+    "name": { "pl": "Akwaporyna - Kanał Wodny", "en": "Aquaporin - Water Channel" },
+    "emoji": "💦",
+    "category": { "pl": "Białko kanałowe", "en": "Channel protein" },
+    "desc": {
+      "pl": "Akwaporyna to tunel w błonie komórki, przez który przepływa woda! Jest tak sprytnie zbudowana, że przepuszcza tylko wodę, a blokuje wszystko inne.",
+      "en": "Aquaporin is a tunnel in the cell membrane that lets water flow through! It's so cleverly built that it only lets water pass, blocking everything else."
+    },
+    "funFact": {
+      "pl": "Przez jeden kanał akwaporyny może przepłynąć 3 miliardy cząsteczek wody na sekundę!",
+      "en": "3 billion water molecules can flow through one aquaporin channel per second!"
+    }
+  },
+  {
+    "pdb": "1PMA",
+    "name": { "pl": "Proteasom 20S – Beczka Recyklingu", "en": "20S Proteasome – Recycling Barrel" },
+    "emoji": "🛢️",
+    "category": { "pl": "Enzym", "en": "Enzyme" },
+    "desc": {
+      "pl": "To białkowa „beczka–rozdrabniarka”! Proteasom tnie stare lub zepsute białka na małe kawałki, żeby komórka mogła je posprzątać i wykorzystać do zrobienia nowych. Dzięki temu w komórkach jest porządek!",
+      "en": "This is a protein “barrel shredder”! The proteasome cuts old or damaged proteins into tiny pieces so the cell can clean up and reuse them to make new proteins. It helps keep the cell tidy!"
+    },
+    "funFact": {
+      "pl": "Ten kształt beczki jest tak genialny, że wiele różnych białek używa dokładnie tego samego projektu!",
+      "en": "This barrel shape is so brilliant that many different proteins use exactly the same design!"
+    }
+  },
+  {
+    "pdb": "8H9T",
+    "name": { "pl": "ATP Syntaza - Fabryka Energii", "en": "ATP Synthase - Energy Factory" },
+    "emoji": "⚡",
+    "category": { "pl": "Enzym", "en": "Enzyme" },
+    "desc": {
+      "pl": "To najmniejszy silniczek na świecie! ATP syntaza kręci się jak wiatraczek i produkuje ATP - walutę energetyczną twoich komórek. Bez niej nie mógłbyś się ruszać, myśleć ani rosnąć!",
+      "en": "This is the smallest motor in the world! ATP synthase spins like a windmill and produces ATP - your cells' energy currency. Without it, you couldn't move, think, or grow!"
+    },
+    "funFact": {
+      "pl": "Twoje ciało codziennie produkuje i zużywa tyle ATP, ile mniej więcej samo waży! Na szczęście ATP jest stale odzyskiwane i wytwarzane ponownie.",
+      "en": "Every day, your body makes and uses about as much ATP as it weighs! Luckily, ATP is constantly recycled and made again."
+    }
+  },
+  {
+    "pdb": "4V6X",
+    "name": { "pl": "Rybosom - Fabryka Białek", "en": "Ribosome - Protein Factory" },
+    "emoji": "🏭",
+    "category": { "pl": "Kompleks RNA-białko", "en": "RNA-protein complex" },
+    "desc": {
+      "pl": "Rybosom to fabryka białek w komórce: czyta instrukcję z mRNA (kopię informacji z DNA) i składa aminokwasy w białko. W wielu komórkach są ich miliony i pracują bardzo intensywnie.",
+      "en": "Ribosomes are protein factories in the cell: they read instructions from mRNA (a copy of information from DNA) and link amino acids together to build a protein. In many cells, there are millions of ribosomes working very intensively."
+    },
+    "funFact": {
+      "pl": "Rybosom może wyprodukować jedno białko w zaledwie kilka sekund - to jak złożenie samochodu w mgnieniu oka!",
+      "en": "A ribosome can produce one protein in just a few seconds - that's like building a car in the blink of an eye!"
+    }
+  },
+  {
+    "pdb": "3QYT",
+    "name": { "pl": "Transferyna - Żelazny Kurier", "en": "Transferrin - Iron Courier" },
+    "emoji": "🚂",
+    "category": { "pl": "Białko transportowe", "en": "Transport protein" },
+    "desc": {
+      "pl": "Transferyna to pociąg towarowy dla żelaza! Ma dwa wagony, które przewożą atomy żelaza do miejsc, gdzie są potrzebne. Żelazo pomaga robić hemoglobinę - bez niego byłbyś słaby i zmęczony!",
+      "en": "Transferrin is a freight train for iron! It has two wagons that carry iron atoms where they're needed. Iron helps make hemoglobin - without it you would be weak and tired!"
+    },
+    "funFact": {
+      "pl": "Twoje komórki mają specjalne „stacje odbioru” (receptory), które łapią transferrynę i wyjmują z niej żelazo — jak paczkę z dostawą!",
+      "en": "Your cells have special “pickup stations” (receptors) that grab transferrin and take iron from it—like receiving a delivered package!"
+    }
+  },
+  {
+    "pdb": "1IZL",
+    "name": { "pl": "Fotosystem II - Łapacz Słońca", "en": "Photosystem II - Sun Catcher" },
+    "emoji": "🌻",
+    "category": { "pl": "Kompleks białkowy", "en": "Protein complex" },
+    "desc": {
+      "pl": "To maszyna, która łapie światło słoneczne w roślinach! Fotosystem II zbiera energię ze Słońca i używa jej do rozbijania wody. Dzięki niemu rośliny produkują tlen, którym oddychasz!",
+      "en": "This is a machine that catches sunlight in plants! Photosystem II collects energy from the Sun and uses it to split water. Thanks to it, plants produce the oxygen you breathe!"
+    },
+    "funFact": {
+      "pl": "Cały tlen w powietrzu, którym oddychasz, powstał dzięki fotosystemowi II w roślinach, sinicach i algach!",
+      "en": "All the oxygen in the air you breathe was made by Photosystem II in plants, cyanobacteria and algae!"
+    }
+  }
+]
