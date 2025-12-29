@@ -14,7 +14,7 @@
 
 - 🤚 **Sterowanie gestami dłoni** - jedna ręka obraca strukturę, dwie ręce to zoom
 - 🎨 **5 stylów wizualizacji** - Cartoon, Stick, Sphere, Surface, Line
-- 🧬 **20 struktur białek** - od hemoglobiny po wirusa polio
+- 🧬 **20 struktur** - od hemoglobiny po wirusa polio
 - 🌍 **Dwujęzyczny interfejs** - Polski i Angielski
 - 📱 **Responsywny design** - działa na komputerach i tabletach
 - 🎯 **Edukacyjne opisy** - każda struktura zawiera ciekawe fakty
@@ -212,7 +212,7 @@ molecular_jarvis/
 ├── index.html          # Główny plik HTML
 ├── style.css           # Style i animacje
 ├── main.js             # Logika aplikacji
-├── proteins.json       # Baza 20 struktur białek
+├── proteins.json       # Baza 20 struktur
 ├── en_example.jpg      # Screenshot wersji angielskiej
 ├── pl_example.jpg      # Screenshot wersji polskiej
 ├── LICENSE             # Licencja MIT
@@ -480,7 +480,7 @@ molecular_jarvis/
 ├── index.html          # Main HTML file
 ├── style.css           # Styles and animations
 ├── main.js             # Application logic
-├── proteins.json       # Database of 20 protein structures
+├── proteins.json       # Database of 20 structures
 ├── en_example.jpg      # English version screenshot
 ├── pl_example.jpg      # Polish version screenshot
 ├── LICENSE             # MIT License
