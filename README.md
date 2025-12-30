@@ -16,7 +16,7 @@
 - 🎨 **5 stylów wizualizacji** - Cartoon, Stick, Sphere, Surface, Line
 - 🧬 **20 struktur** - od hemoglobiny po wirusa polio
 - 🌍 **Dwujęzyczny interfejs** - Polski i Angielski
-- 📱 **Responsywny design** - działa na komputerach i tabletach
+- 📱 **Responsywny design** - działa na komputerach
 - 🎯 **Edukacyjne opisy** - każda struktura zawiera ciekawe fakty
 - ⌨️ **Nawigacja klawiaturą** - strzałki do przełączania struktur
 
@@ -192,8 +192,8 @@ http-server -p 8000
   
 - **🤲 Dwie ręce** - Zoom
   - Pokaż dwie dłonie
-  - Zbliż ręce = przybliżenie
-  - Oddal ręce = oddalenie
+  - Zbliż ręce = oddalenie
+  - Oddal ręce = przybliżenie
 
 - **⬅️➡️ Strzałki** - Zmiana struktury
   - Lewo/Prawo = poprzednia/następna struktura
@@ -202,7 +202,7 @@ http-server -p 8000
 #### Dodatkowe kontrolki
 
 - **Style wizualizacji** - przełączaj między różnymi reprezentacjami
-- **Reset widoku** - przywróć domyślną pozycję kamery
+- **Reset widoku** - wycentruj i dopasuj strukturę do okna (zoomTo)
 - **Przełącznik języka** - PL/EN w prawym górnym rogu
 
 ### 📁 Struktura projektu
@@ -257,7 +257,7 @@ MIT License - Zobacz plik [LICENSE](LICENSE)
 
 ### 👨‍💻 Autor
 
-**Adam Kuzdralińsju** - [Adv20202](https://github.com/Adv20202)
+**Adam Kuzdraliński** - [Adv20202](https://github.com/Adv20202)
 
 PJATK (Polish-Japanese Academy of Information Technology)
 
@@ -274,7 +274,7 @@ PJATK (Polish-Japanese Academy of Information Technology)
 
 ### 📖 Description
 
-**Molecular Jarvis** is an interactive web application for 3D molecules structure visualization, controlled by hand gestures using MediaPipe and 3Dmol.js. The project allows exploration of 20 different molecular structures in an accessible and intuitive way - just show your hand to the camera!
+**Molecular Jarvis** is an interactive web application for 3D molecular structure visualization, controlled by hand gestures using MediaPipe and 3Dmol.js. The project allows exploration of 20 different molecular structures in an accessible and intuitive way - just show your hand to the camera!
 
 ![English Version](en_example.jpg)
 
@@ -282,9 +282,9 @@ PJATK (Polish-Japanese Academy of Information Technology)
 
 - 🤚 **Hand gesture control** - one hand rotates structure, two hands zoom
 - 🎨 **5 visualization styles** - Cartoon, Stick, Sphere, Surface, Line
-- 🧬 **20 protein structures** - from hemoglobin to polio virus
+- 🧬 **20 molecular structures** - from hemoglobin to polio virus
 - 🌍 **Bilingual interface** - Polish and English
-- 📱 **Responsive design** - works on computers and tablets
+- 📱 **Responsive design** - works on computers
 - 🎯 **Educational descriptions** - each structure includes fun facts
 - ⌨️ **Keyboard navigation** - arrows to switch structures
 
@@ -460,8 +460,8 @@ http-server -p 8000
   
 - **🤲 Two hands** - Zoom
   - Show two hands
-  - Bring hands closer = zoom in
-  - Move hands apart = zoom out
+  - Bring hands closer = zoom out
+  - Move hands apart = zoom in
 
 - **⬅️➡️ Arrows** - Change structure
   - Left/Right = previous/next structure
@@ -470,7 +470,7 @@ http-server -p 8000
 #### Additional Controls
 
 - **Visualization styles** - switch between different representations
-- **Reset view** - restore default camera position
+- **Reset view** - center and fit the structure to the viewport (zoomTo)
 - **Language toggle** - PL/EN in top right corner
 
 ### 📁 Project Structure
